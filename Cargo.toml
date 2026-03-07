@@ -21,7 +21,13 @@ esp-println      = { version = "0.16.1", features = ["esp32c3", "log-04"] }
 
 critical-section = "1.2.0"
 static_cell      = "2.1.1"
-fugit = "0.3.9"
+
+embedded-hal = "1.0.0"
+embedded-graphics = "0.8"
+ssd1306 = "0.9"
+embedded-hal-bus = "0.2"
+heapless = "0.8"
+
 
 
 [profile.dev]
